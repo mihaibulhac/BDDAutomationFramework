@@ -72,8 +72,8 @@ public class queries {
             //List<Projection> tuples = query3.from(customer).select(
              //       new QProjection(customer.firstName, customer.lastName,customer.personID)).fetch();
 
-            List<HashMap<String,String>> tuples = query3.from(customer).select(
-                    new HashMap<String,String>).fetch();
+           // List<HashMap<String,String>> tuples = query3.from(customer).select(
+            //        new HashMap<String,String>).fetch();
 
 
 
